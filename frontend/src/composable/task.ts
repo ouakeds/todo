@@ -20,8 +20,6 @@ const useTask = () => {
     const fetchTasks = () => {
         http.get<Task[]>('/tasks').then((response) => {
             tasks.value = response.data
-
-            console.log('got: ', response.data)
         })
     }
 
