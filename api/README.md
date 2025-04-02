@@ -13,8 +13,8 @@ npm install
 
 ## Env Configuration
 ```
-CORS_ORIGIN=localhost:5173
-MONGO_URI=localhost:5173
+CORS_ORIGIN=
+MONGO_URI=
 ```
 
 ## Run
