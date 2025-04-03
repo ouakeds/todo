@@ -13,8 +13,8 @@ npm install
 
 ## Env Configuration
 ```
-CORS_ORIGIN=
-MONGO_URI=
+CORS_ORIGIN=your_frontend_url
+MONGO_URI=your_mongodb_uri
 ```
 
 ## Run

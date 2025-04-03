@@ -22,7 +22,6 @@
     const formTitle = computed(() => {
         return props.isOnEdit ? 'New task' : 'Task update'
     })
-    
 </script>
 
 <template>

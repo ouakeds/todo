@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import type { Task } from '../composable/task';
+    import type { Task } from '../composable/task';
     interface TaskProps {
         task: Task,
     }
 
     defineProps<TaskProps>()
     const emit = defineEmits(['onEditTask', 'onDeleteTask'])
-
 </script>
 
 

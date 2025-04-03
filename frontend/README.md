@@ -11,6 +11,11 @@ Node version required > 22
 npm install
 ```
 
+## Env Configuration
+```
+VITE_API_URL=your_api_url
+```
+
 ## Run
 ```
 npm run start
